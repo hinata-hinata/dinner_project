@@ -1,0 +1,18 @@
+@startuml activity
+start
+fork
+  :ピザを作る\n作業時間 30分;
+
+fork again
+  :ポテトを作る\n作業時間 30分;
+fork again
+  :コーンスープを作る\n作業時間 30分;
+fork again
+  :生ビールを作る\n作業時間 20分;
+fork again
+  :食べる準備をする\n作業時間 10分;
+end fork  
+
+stop
+
+@enduml

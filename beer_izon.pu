@@ -1,0 +1,11 @@
+@startuml activity
+start
+fork
+  :スーパーで買う\n作業時間 30分;
+  :ジョッキにつぐ\n作業時間 3分;
+
+end fork  
+
+stop
+
+@enduml

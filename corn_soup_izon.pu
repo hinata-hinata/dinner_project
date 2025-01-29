@@ -1,0 +1,11 @@
+@startuml activity
+start
+fork
+  :コーンスープの素を買う\n作業時間 20分;
+  :お湯を沸かす\n作業時間 30分;
+  :混ぜる\n作業時間 5分;
+end fork  
+
+stop
+
+@enduml
