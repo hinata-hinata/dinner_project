@@ -1,0 +1,13 @@
+@startuml ポテトを作る
+
+start
+
+fork
+    :ポテトを買う\n作業時間 10分;
+    :油で揚げる\n作業時間 3分;
+    :塩をふる\n作業時間 10秒;
+end fork
+
+stop
+
+@enduml
